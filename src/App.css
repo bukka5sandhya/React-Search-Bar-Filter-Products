@@ -1,0 +1,47 @@
+.body{
+  background-color: rgb(209,204,204);
+}
+.template-container{
+  margin:5% 0;
+}
+.template-container > .searchInput_container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto;
+}
+.template-container > .searchInput_container input{
+  width:50%;
+  padding:10px;
+  outline: none;
+  font-size:20px;
+}
+.template-container > .template_container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto;
+
+}
+.template-container > .template_container .template{
+  background-color: white;
+  margin:30px;
+  padding:0 20px;
+
+}
+.template-container > .template_container .template img{
+  height:250px;
+
+}
+.heading{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.price{
+  font-size: 15px;
+  font-weight: 500;
+
+}
